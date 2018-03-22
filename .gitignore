@@ -18,3 +18,5 @@ eclipse/*
 out/
 *.iml
 classes/*
+*.ipr
+*.iws

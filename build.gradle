@@ -28,9 +28,10 @@ targetCompatibility = java_version
 
 dependencies {
 	testCompile "junit:junit:4.12"
-	compile("code.elix_x.excore:EXCore:$excore_version-$minecraft_version"){
-		exclude group: "com.google.guava"
-	}
+	//maven not up to date! switching to lib dependency for now
+	//compile("code.elix_x.excore:EXCore:$excore_version-$minecraft_version"){
+	//	exclude group: "com.google.guava"
+	//}
 	compile "com.esotericsoftware.yamlbeans:yamlbeans:$yamlbeans_version"
 	deobfCompile "MCMultiPart2:MCMultiPart:$mcmp_version"
 	// deobfCompile "chisels-bits:chiselsandbits:$chiselsandbits_version"
